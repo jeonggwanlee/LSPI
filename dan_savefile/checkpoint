@@ -1,2 +1,0 @@
-model_checkpoint_path: "dan_cartpole_Nh110_Nh210"
-all_model_checkpoint_paths: "dan_cartpole_Nh110_Nh210"
