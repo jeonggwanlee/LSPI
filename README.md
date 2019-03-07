@@ -1,7 +1,7 @@
 # LSPI(Least Squares Policy Iteration) with TF 1.5.0
 
 ## LSPI?
-[Least Sqaures Policy Iteration](www.jmlr.org/papers/v4/lagoudakis03a.html)
+[Least Sqaures Policy Iteration](http://www.jmlr.org/papers/v4/lagoudakis03a.html)
 
 ## Dependency
 
