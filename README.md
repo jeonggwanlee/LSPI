@@ -1,13 +1,13 @@
 # LSPI(Least Squares Policy Iteration) with TF 1.5.0
 
 ## LSPI?
-Least Sqaures Policy Iteration
+[Least Sqaures Policy Iteration]
 (www.jmlr.org/papers/v4/lagoudakis03a.html)
 
 ## Dependency
 
 ### language
-python3
+- python3
 
 ### libraries
 - gym
@@ -20,11 +20,14 @@ python3 main.py
 
 In `main.py`, you can choose basis function option.
 
-1.gaussian,
+1.gaussian
+
 2.deep_cartpole
+
 3.deep_action_network(dan)_h1
+
 4.deep_action_network(dan)_pred
 
 ## reference
-Batch, Off-policy and Model-Free Apprenticeship Learning
-https://link.springer.com/chapter/10.1007/978-3-642-29946-9_28
+[Batch, Off-policy and Model-Free Apprenticeship Learning]
+(https://link.springer.com/chapter/10.1007/978-3-642-29946-9_28)
