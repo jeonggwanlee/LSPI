@@ -1,19 +1,30 @@
-# LSPI implementation with Tensorflow 1.5.0
+# LSPI(Least Squares Policy Iteration) with TF 1.5.0
 
-* Dependency.
+## LSPI?
+Least Sqaures Policy Iteration
+(www.jmlr.org/papers/v4/lagoudakis03a.html)
 
+## Dependency
+
+### language
 python3
 
--gym
+### libraries
+- gym
+- tensorflow=1.5 (I tried tensorflow 1.13, but it's trapped)
+- numpy
 
--tensorflow=1.5 (I tried tensorflow 1.13, but it's trapped)
-
--numpy
-
-In `main.py`, you can choose basis function option(gaussian, deep_cartpole, dan_{h1, pred} )
-
-Run
+## Run
 
 python3 main.py
 
+In `main.py`, you can choose basis function option.
 
+1.gaussian,
+2.deep_cartpole
+3.deep_action_network(dan)_h1
+4.deep_action_network(dan)_pred
+
+## reference
+Batch, Off-policy and Model-Free Apprenticeship Learning
+https://link.springer.com/chapter/10.1007/978-3-642-29946-9_28
